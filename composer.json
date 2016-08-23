@@ -1,0 +1,21 @@
+{
+  "name": "josecelano/bowling-game-kata",
+  "license": "",
+  "require-dev": {
+    "phpunit/phpunit": "^5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "BowlingGame\\": "src/BowlingGame"
+    }
+  },
+  "autoload-dev": {
+    "prs-4": {
+      "BowlingGame\\Tests\\": "tests/BowlingGame"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "bin-dir": "bin/"
+  }
+}
